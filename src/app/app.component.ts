@@ -11,7 +11,7 @@ export class AppComponent {
 
 
 greet(name:string){
-  alert('hello'+name);
+  alert('hello ' + name);
 }
 
 
