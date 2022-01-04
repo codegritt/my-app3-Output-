@@ -12,4 +12,10 @@ export class ChildComponent implements OnInit {
   ngOnInit(): void {
   }
 
+callParentGreet(){
+  alert('sending a message');
+}
+
+
+
 }
