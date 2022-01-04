@@ -9,6 +9,9 @@ export class ChildComponent implements OnInit {
 
 
   @Output() greetEvent= new EventEmitter();
+  name= 'codeevolution';
+
+
 
   constructor() { }
 
@@ -16,7 +19,7 @@ export class ChildComponent implements OnInit {
   }
 
 callParentGreet(){
-  this.greetEvent.emit();   
+  this.greetEvent.emit(this.name);   
 }
 
 
