@@ -10,8 +10,8 @@ export class AppComponent {
 
 
 
-greet(){
-  alert('hello gokul');
+greet(name:string){
+  alert('hello'+name);
 }
 
 
