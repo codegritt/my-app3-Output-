@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app3';
+
+
+
+greet(){
+  alert('hello gokul');
+}
+
+
 }
