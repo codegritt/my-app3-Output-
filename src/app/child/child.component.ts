@@ -9,7 +9,7 @@ export class ChildComponent implements OnInit {
 
 
   @Output() greetEvent= new EventEmitter();
-  name= 'codeevolution';
+  name= 'gokul';
 
 
 
